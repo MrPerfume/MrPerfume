@@ -1,26 +1,31 @@
-# MrHuang · 计量数字化管理实践
+# MrHuang · 计量现场管理与工业软件实施实践
 
-我围绕计量设备管理，梳理送检、设备交接、证书复核与跨部门协作中的实际问题，把现场规则转成可执行的系统流程。主导现场需求、业务规则与验收，推进原型验证和流程落地。
+我从计量现场管理出发，围绕送检安排、设备交接、证书复核和台账核对，主导需求梳理、业务规则与验收，把使用部门、计量室和检测单位之间的协作落实到系统流程。
 
-希望继续参与设备与质量数字化管理、工业软件实施工作，让现场经验与系统建设相互支撑。
+关注工业软件实施、设备与质量数字化管理岗位。
 
-## 代表作品
+## 计量业务与系统实践
 
-[计量数字化管理作品集](https://mrperfume.github.io/measurement-portfolio/)：从现场问题出发，展示流程设计、跨角色协同与验收方法。可先读案例，再进入交互演示；[项目源码与文档](https://github.com/MrPerfume/measurement-portfolio)提供具体规则和验证记录。
+- **送检与交接**：周报检、分次到场、分批取回及部门直领，分别跟进预约、实物去向与执行进度。
+- **证书与台账**：核对设备身份与日期，保留历史记录关联，预览差异后由人工确认。
+- **跨角色协同**：使用部门按计划组申报，检测方提出排期建议，计量管理员确认安排与交接。
 
-## 三个代表案例
+## 一个实施案例
 
-1. [分批取回与部门直领](https://mrperfume.github.io/measurement-portfolio/?scenario=returns#demo)：同批设备去向不同，逐台登记交接，保留仍在检的设备并核对剩余数量。
-2. [周报检与分次到场](https://mrperfume.github.io/measurement-portfolio/?scenario=weekly#demo)：一次报检分多次执行，将预约、实际到场与检测结果分别记录，跟进每次执行进度。
-3. [连续证书复核](https://mrperfume.github.io/measurement-portfolio/?scenario=certificate#demo)：连续处理多份证书时保留进度，把匹配建议、人工确认与复核完成分开。
+[部门送检协同与证书查询](https://mrperfume.github.io/measurement-portfolio/#implementation)：从部门“该送多少、送到哪里、何时领取、去哪查证书”的需求出发，梳理角色与任务，形成计划组申报、交接跟进和设备证书查询方案，并定义验收条件。
+
+**交付记录（2026-10-25）**：部门门户已部署测试站，并补充证书分组归档；实际工作已有部分通知、查询与协同使用，新增功能的使用规模与收益尚待确认。
+
+## 三个可体验的业务场景
+
+1. [分批取回与部门直领](https://mrperfume.github.io/measurement-portfolio/?scenario=returns#demo)：逐台登记去向，保留仍在检的设备，核对剩余数量与交接记录。
+2. [周报检与分次到场](https://mrperfume.github.io/measurement-portfolio/?scenario=weekly#demo)：分别记录预约、实际到场和检测结果，保留改期与分次执行过程。
+3. [连续证书复核](https://mrperfume.github.io/measurement-portfolio/?scenario=certificate#demo)：保留处理进度，分开匹配建议、人工关联与复核完成。
 
 ## 其他工具
 
-- [英文视频转中文配音](https://github.com/MrPerfume/translate-video)：串联语音识别、翻译、配音与视频合成，输出中文配音视频及字幕。
-- [TabFlow](https://github.com/MrPerfume/tabflow)：本地优先的 Chrome 标签页管理扩展，用于保存、搜索和恢复浏览现场。
+[英文视频转中文配音](https://github.com/MrPerfume/translate-video) · [TabFlow 标签页管理](https://github.com/MrPerfume/tabflow)
 
 ## 验证说明
 
-公开演示使用合成数据与页面内存；具体测试和完整系统实践范围见[工程说明](https://github.com/MrPerfume/measurement-portfolio/blob/main/docs/ENGINEERING_EVIDENCE.md)，不据此推断生产收益或全面验收。
-
-近期实践（2026-10-25）：部门协同、证书查询与台账核对相关版本已交付测试站，OCR 仍有人工余项，使用规模与收益尚待确认；[查看进展](https://mrperfume.github.io/measurement-portfolio/#recent-practice)。
+公开演示使用合成数据与页面内存；实施案例根据既有项目记录整理。完整系统进展、测试站交付与公开原型分别说明，详见[项目文档](https://github.com/MrPerfume/measurement-portfolio)和[工程说明](https://github.com/MrPerfume/measurement-portfolio/blob/main/docs/ENGINEERING_EVIDENCE.md)。
